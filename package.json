@@ -1,0 +1,14 @@
+{
+  "name": "newman-runner",
+  "version": "1.0.0",
+  "description": "Postman Runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Madan Thapa",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.3.2"
+  }
+}
