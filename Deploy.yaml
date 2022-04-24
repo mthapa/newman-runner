@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: newman-runner-deployment
+  labels:
+    app: newman-runner
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: newman-runner
+  template:
+    metadata:
+      labels:
+        app: newman-runner
+    spec:
+      containers:
+      - name: newman-runner
+        image: madanthapa/newman-runner:1.0
