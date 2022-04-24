@@ -1,3 +1,8 @@
+## Intro
+
+Simple node app to run postman collections using newman library.
+Creates a deployment In Kubernetes Cluster
+
 ## References
 
 * https://philna.sh/blog/2019/01/10/how-to-start-a-node-js-project/
