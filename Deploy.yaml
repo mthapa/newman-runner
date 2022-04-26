@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: newman-runner
-        image: madanthapa/newman-runner:1.0
+        image: madanthapa/newman-runner:1.1
